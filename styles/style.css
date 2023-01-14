@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 /* poppins font  */
 
 /* start header  */
@@ -176,6 +183,7 @@ p {
 .future{
     display: flex;
     gap: 60px;
+    margin-bottom: 100px;
 }
 .future .img{
     width: 404px;
@@ -201,4 +209,8 @@ p {
 }
 
 /* footer  */
-
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(214, 30, 30);
+}
